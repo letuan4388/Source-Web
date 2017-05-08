@@ -7,12 +7,12 @@ function GetGPIO() {
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			ProcessResponse(this);
-			//GetGPIO();
+			GetGPIO();
 		}
 	};
 	xhttp.open("GET", strGPIO1 + nocache, true);
 	xhttp.send();
-	setTimeout("GetGPIO()", 1000);
+	//setTimeout("GetGPIO()", 1000);
 	strGPIO1 = "";
 }
 
