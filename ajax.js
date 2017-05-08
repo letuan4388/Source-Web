@@ -1,4 +1,3 @@
-
 // JavaScript Documentstr
 
 GPIO1 = '';
@@ -9,7 +8,7 @@ function GetGPIO() {
 			Process(this);
 		}
 	}
-	xhttp.open('GET', 'response.xml', true);
+	xhttp.open('GET', 'https://rawgit.com/letuan4388/Source-Web/master/response.xml', true);
 	xhttp.send();
 	setTimeout('GetGPIO()', 1000);
 	strGPIO1 = '';
