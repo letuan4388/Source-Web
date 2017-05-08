@@ -1,3 +1,4 @@
+
 // JavaScript Documentstr
 
 GPIO1 = '';
@@ -21,6 +22,7 @@ function Process(xml) {
 	else
 		document.getElementById('gpio1').innerHTML = 'DEVICE IS OFF';
 }
+
 function SetGPIO() {
 	strGPIO1 = "GPIO1";
 	alert("GPIO1");
