@@ -21,7 +21,7 @@ function Process(xml) {
 	var x = xml.responseXML.getElementsByTagName("GPIO");
 	document.getElementById("gpio1").innerHTML = x[0].childNodes[0].nodeValue;
 	document.getElementById("gpio2").innerHTML = x[1].childNodes[0].nodeValue;
-	document.getElementById("gpio3").innerHTML = x[2].childNodes[0].nodeValue;
+	document.getElementById("nhietdo").innerHTML = x[2].childNodes[0].nodeValue;
 }
 
 function SetGPIO(value) {
